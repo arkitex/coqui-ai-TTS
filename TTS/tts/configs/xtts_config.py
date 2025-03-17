@@ -71,23 +71,23 @@ class XttsConfig(BaseTTSConfig):
     model_dir: str = None
     languages: list[str] = field(
         default_factory=lambda: [
-            "en",
-            "es",
-            "fr",
-            "de",
-            "it",
-            "pt",
-            "pl",
-            "tr",
-            "ru",
-            "nl",
-            "cs",
-            "ar",
-            "zh-cn",
-            "hu",
-            "ko",
-            "ja",
-            "hi",
+            "en",  # English
+            "es",  # Spanish
+            "fr",  # French
+            "de",  # German
+            "it",  # Italian
+            "pt",  # Portuguese
+            "pl",  # Polish
+            "tr",  # Turkish
+            "ru",  # Russian
+            "nl",  # Dutch
+            "cs",  # Czech
+            "ar",  # Arabic
+            "zh-cn",  # Chinese (Simplified, Mainland China)
+            "hu",  # Hungarian
+            "ko",  # Korean
+            "ja",  # Japanese
+            "hi",  # Hindi
         ]
     )
 
